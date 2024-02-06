@@ -211,25 +211,6 @@ Since we are in short of hands, if you're familiar with ASP.NET core, we'll appr
 3. Cannot load native lirary: 1) ensure you installed one of the backend packages. 2) Run `NativeLibraryConfig.WithLogs()` at the very beginning of your code to print more informations. 3) check if your system supports avx2, which is the default settings of official runtimes now. If not, please compile llama.cpp yourself and specify it with `NativeLibraryConfig.WithLibrary`.
 4. How to find a model: Models in format `gguf` are valid for LLamaSharp (and `ggml` before v0.5.1). If you're new to LLM/LLaMA, it's a good choice to search `LLama` and `gguf` on [huggingface](https://huggingface.co/) to find a model. Another choice is generate gguf format file yourself with a pytorch weight (or any other), pleae refer to [convert.py](https://github.com/ggerganov/llama.cpp/blob/master/convert.py) and [convert-llama-ggml-to-gguf.py](https://github.com/ggerganov/llama.cpp/blob/master/convert-llama-ggml-to-gguf.py) to get gguf file through a ggml transformation.
 
-
-## Contributing
-
-Any contribution is welcomed! There's a TODO list in [LLamaSharp Dev Project](https://github.com/orgs/SciSharp/projects/5) and you could pick an interested one to start. Please read the [contributing guide](https://scisharp.github.io/LLamaSharp/latest/ContributingGuide/) for more informations. 
-
-You can also do one of the followings to help us make LLamaSharp better:
-
-- Submit a feature request.
-- Star and share LLamaSharp to let others know it.
-- Write a blog or demo about LLamaSharp.
-- Help to develop Web API and UI integration.
-- Just open an issue about the problem you met!
-
-## Contact us
-
-Join our chat on [Discord](https://discord.gg/7wNVU65ZDY) (please contact Rinne to join the dev channel if you want to be a contributor).
-
-Join [QQ group](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=sN9VVMwbWjs5L0ATpizKKxOcZdEPMrp8&authKey=RLDw41bLTrEyEgZZi%2FzT4pYk%2BwmEFgFcrhs8ZbkiVY7a4JFckzJefaYNW6Lk4yPX&noverify=0&group_code=985366726)
-
 ## Apendix
 
 ### Mapping from LLamaSharp to llama.cpp
@@ -251,4 +232,4 @@ The llama.cpp commit id will help if you want to compile a DLL yourself.
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+The original project is licensed under the terms of the MIT license.

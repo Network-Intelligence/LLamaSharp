@@ -1,3 +1,5 @@
+This project is forked from [SciSharp's LlamaSharp Project](https://github.com/SciSharp/LLamaSharp)
+
 ﻿![logo](Assets/LLamaSharpLogo.png)
 
 [![Discord](https://img.shields.io/discord/1106946823282761851?label=Discord)](https://discord.gg/7wNVU65ZDY)
